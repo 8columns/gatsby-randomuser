@@ -1,0 +1,18 @@
+.menu {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.menu > a {
+	margin: 0 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: inherit;
+}
+
+.menu > a:hover {
+	color: #7CB539;
+}

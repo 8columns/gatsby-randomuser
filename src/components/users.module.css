@@ -1,0 +1,40 @@
+.users {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	margin-bottom: 40px;
+}
+
+.users > div {
+	border: 1px solid #eee;
+	padding: 10px;
+	display: flex;
+	margin: 5px;
+	width: 320px;
+	border-radius: 4px;
+	background-color: #fff;
+	min-height: 94px;
+	box-sizing: border-box;
+}
+
+.users > div:last-child {
+	margin-bottom: 0;
+}
+
+.users > div > img {
+	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+}
+
+.users > div > p {
+	margin-left: 10px;
+	flex: 1;
+}
+
+.users .loading {
+	text-align: center;
+	font-size: 32px;
+}
