@@ -5,7 +5,6 @@
   </a>
 </p>
 <h1 align="center">
-  Learning How to develop Web App 
-  using Gatsby + Random User API
+  Small Web App using Gatsby + Random User API
 </h1>
 
